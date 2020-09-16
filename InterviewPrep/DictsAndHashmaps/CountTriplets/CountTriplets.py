@@ -8,7 +8,6 @@ import sys
 
 # Complete the countTriplets function below.
 def countTriplets(arr, r):
-
     if len(arr) < 3:
         return 0
 
@@ -58,20 +57,20 @@ if __name__ == '__main__':
     arr = "1 4 16 64"
 
     # Sample Input 0 - correct 2
-    nr = "4 2"
-    arr = "1 2 2 4"
+    #nr = "4 2"
+    #arr = "1 2 2 4"
 
     # Sample Input 1 - correct 6
-    nr = "6 3"
-    arr = "1 3 9 9 27 81"
+    #nr = "6 3"
+    #arr = "1 3 9 9 27 81"
 
     # Sample Input 2 - correct 4
-    nr = "5 5"
-    arr = "1 5 5 25 125"
+    #nr = "5 5"
+    #arr = "1 5 5 25 125"
 
     # Another test
-    nr = "5 2"
-    arr = "1 2 1 2 4"
+    #nr = "5 2"
+    #arr = "1 2 1 2 4"
 
 
     nr = nr.rstrip().split()
